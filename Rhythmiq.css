@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu';
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding-right: 80px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+img{
+    height: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+}
+.myAccount{
+    background-color: black;
+    color: white;
+    height: 430px;
+    width: 260px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.account-header{
+    background-color: #541567;
+    height: 70px;
+    color: #FFF1B9;
+    font-family: ubuntu;
+    padding-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.account-inventory{
+    font-family: ubuntu;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 24px;
+}
+.account-inventory ul li{
+    padding-bottom: 27px;
+    cursor: pointer;
+}
+
+
+
+.songContent{
+    background-color: black;
+    color: white;
+    height: 350px;
+    width: 800px;
+    margin-top: 38px;
+    margin-left: 70px;
+    padding: 20px;
+    border-radius: 15px;
+    background-image:url('Images/bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: 'Ubuntu';
+}
+.songitem{
+    background-color: #EEE2DE;
+    color: black;
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.songitem img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    row-gap: 17px;
+    font-family: Ubuntu;
+}
+.icons{
+    font-size: 25px;
+}
+#myProgressBar{
+    width: 75vw;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 14vw;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    font-family: varela;
+    color: white;
+}
+.songInfo img{
+    margin-top: 3px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.trackDisplay{
+    font-family: varela;
+    font-size: 20px;
+}
